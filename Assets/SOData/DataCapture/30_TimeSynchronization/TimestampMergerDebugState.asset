@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fd98cef6f8d6a439b55b0d102e1a04, type: 3}
+  m_Name: TimestampMergerDebugState
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Diagnostics.TimestampMergerDebugStateSO
+  latestCameraFrameId: 0
+  latestTimestampUnixMs: 0
+  mergedCount: 0
+  latestHasVirtualLayer: 0
+  latestHasController: 0
+  latestHasHeadset: 0
+  latestHasNetworkData: 0
+  latestVirtualLayerDeltaMs: 0
+  latestControllerDeltaMs: 0
+  latestHeadsetDeltaMs: 0
+  latestNetworkDeltaMs: 0
+  latestStatus: 0
+  latestIsSendable: 0
+  latestRequiredStreamMask: 0
+  latestMissingRequiredStreamMask: 0
+  latestMatchedStreamMask: 0
+  latestDropReason: 
+  statusMessage: 

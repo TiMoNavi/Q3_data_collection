@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c78469eab3adc43bb74aeb71aa9bae, type: 3}
+  m_Name: PassthroughState
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Passthrough.PassthroughStateData
+  isLikelyVisible: 0
+  blockerSummary: 
+  updatedAtTime: 0
+  updatedAtRealtime: 0
+  layerFound: 0
+  layerObjectPath: 
+  layerGameObjectActive: 0
+  layerComponentEnabled: 0
+  layerHidden: 0
+  layerResumed: 0
+  textureOpacity: 0
+  edgeRenderingEnabled: 0
+  ovrManagerFound: 0
+  ovrManagerObjectPath: 
+  isInsightPassthroughEnabled: 0
+  isSupportedPlatform: 0
+  isUserPresent: 0
+  isPassthroughRecommended: 0
+  enableMixedReality: 0
+  centerEyeCameraFound: 0
+  centerEyeCameraPath: 
+  centerEyeClearFlags: 0
+  centerEyeBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  skyboxMaterialAssigned: 0
+  blockingReasons: []
+  recentDiagnostics: []

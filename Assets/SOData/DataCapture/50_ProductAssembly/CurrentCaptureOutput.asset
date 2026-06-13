@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eef5fd6b3b893143807ea7334310cef, type: 3}
+  m_Name: CurrentCaptureOutput
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.CurrentCaptureOutputSO
+  isValid: 0
+  current:
+    outputId: 0
+    timestampUnixMs: 0
+    outputKind: 0
+    deliveryKind: 0
+    payloadKind: 0
+    payloadRef:
+      storage: 0
+      memoryBytes: 
+      filePath: 
+      sessionId: 
+      byteLength: 0
+    metadataMode: 0
+    status: 0
+    sourceCameraFrameId: 0
+    sourceFrameStartId: 0
+    sourceFrameEndId: 0
+    timestampStartUnixMs: 0
+    timestampEndUnixMs: 0
+    codec: 
+    width: 0
+    height: 0
+    frameRate: 0
+    isKeyFrame: 0
+    byteLength: 0
+    hasMergedSnapshot: 0
+    mergedSnapshot:
+      frameId: 0
+      timestampUnixMs: 0
+      status: 0
+      isSendable: 0
+      dropReason: 
+      requiredStreamMask: 0
+      missingRequiredStreamMask: 0
+      matchedStreamMask: 0
+      cameraTiming:
+        frameId: 0
+        timestampUnixMs: 0
+        timestampUtc: 
+        unityFrame: 0
+        isUpdatedThisFrame: 0
+      cameraImage:
+        frameId: 0
+        timestampUnixMs: 0
+        resolution: {x: 0, y: 0}
+        encodedFrameId: 0
+        debugImagePath: 
+      cameraPose:
+        frameId: 0
+        timestampUnixMs: 0
+        cameraPosition: {x: 0, y: 0, z: 0}
+        cameraRotation: {x: 0, y: 0, z: 0, w: 0}
+        cameraLocalToWorldMatrix:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+        cameraWorldToLocalMatrix:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      cameraMetadata:
+        frameId: 0
+        timestampUnixMs: 0
+        currentResolution: {x: 0, y: 0}
+        focalLength: {x: 0, y: 0}
+        principalPoint: {x: 0, y: 0}
+        sensorResolution: {x: 0, y: 0}
+        lensOffset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        projectionMatrix:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+        cameraLocalToWorldMatrix:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+        cameraWorldToLocalMatrix:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+        hasDistortionData: 0
+        distortionCoefficients: {x: 0, y: 0, z: 0, w: 0}
+        metadataSource: 
+      cameraStreamState:
+        frameId: 0
+        timestampUnixMs: 0
+        cameraEye: 0
+        requestedResolution: {x: 0, y: 0}
+        currentResolution: {x: 0, y: 0}
+        requestedMaxFramerate: 0
+        measuredFramerate: 0
+        isPlaying: 0
+        isUpdatedThisFrame: 0
+        isSupported: 0
+        texturePropertyName: 
+      controller:
+        timestampUnixMs: 0
+        leftTriggerPressed: 0
+        leftGripPressed: 0
+        leftPrimaryButtonPressed: 0
+        leftSecondaryButtonPressed: 0
+        rightTriggerPressed: 0
+        rightGripPressed: 0
+        rightPrimaryButtonPressed: 0
+        rightSecondaryButtonPressed: 0
+        worldLeftPosition: {x: 0, y: 0, z: 0}
+        worldLeftRotation: {x: 0, y: 0, z: 0, w: 0}
+        worldRightPosition: {x: 0, y: 0, z: 0}
+        worldRightRotation: {x: 0, y: 0, z: 0, w: 0}
+        calibratedLeftPosition: {x: 0, y: 0, z: 0}
+        calibratedLeftRotation: {x: 0, y: 0, z: 0, w: 0}
+        calibratedRightPosition: {x: 0, y: 0, z: 0}
+        calibratedRightRotation: {x: 0, y: 0, z: 0, w: 0}
+        hasWorldCoordinateFrame: 0
+        hasCalibration: 0
+        worldCoordinateFrameName: 
+        calibratedCoordinateFrameName: 
+      hasCameraImage: 0
+      hasCameraPose: 0
+      hasCameraMetadata: 0
+      hasCameraStreamState: 0
+      hasController: 0
+      cameraImageTimeDeltaMs: 0
+      cameraPoseTimeDeltaMs: 0
+      cameraMetadataTimeDeltaMs: 0
+      cameraStreamStateTimeDeltaMs: 0
+      controllerTimeDeltaMs: 0
+      cameraImageMatchStatus: 0
+      cameraPoseMatchStatus: 0
+      cameraMetadataMatchStatus: 0
+      cameraStreamStateMatchStatus: 0
+      controllerMatchStatus: 0
+      cameraImageDropReason: 
+      cameraPoseDropReason: 
+      cameraMetadataDropReason: 
+      cameraStreamStateDropReason: 
+      controllerDropReason: 
+    metadataBindingStatus: 0
+    metadataTimestampDeltaMs: 0
+    metadataSidecarPath: 
+    manifestPath: 
+    dropReason: 

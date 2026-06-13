@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22bb90efc2f4d4ba7166d5a81c93535, type: 3}
+  m_Name: CaptureTransmissionGate
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.CaptureTransmissionGateSO
+  outputRouteReady: 0
+  outputRouteBlocker: Output route is not ready.
+  recordingActive: 0
+  recordingBlocker: Recording has not started.
+  synthesisHealthy: 0
+  synthesisBlocker: Merged synchronization has not produced a sendable frame.
+  canEncodeAndSend: 0
+  activeBlocker: Transmission is blocked.
+  lastUpdatedUnixMs: 0

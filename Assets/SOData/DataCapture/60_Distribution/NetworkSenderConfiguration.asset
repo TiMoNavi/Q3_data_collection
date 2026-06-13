@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e7a47499fc37449a59199f565c88fb, type: 3}
+  m_Name: NetworkSenderConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.NetworkSenderConfigurationSO
+  enableLanDiscovery: 0
+  discoveryMagic: Q3DC_DISCOVER
+  discoveryPort: 49000
+  protocolVersion: 1
+  includeLimitedBroadcast: 1
+  includeDirectedBroadcasts: 1
+  avoidVpnTunnelInterfaces: 1
+  additionalDiscoveryTargets: []
+  editorLocalBindAddress: 
+  editorDiscoveryBroadcastAddress: 
+  remoteHost: 
+  videoPort: 5000
+  metadataPort: 5001
+  maxPacketBytes: 60000
+  outputTarget: 2
+  selfHost: 127.0.0.1
+  selfVideoPort: 5100
+  selfMetadataPort: 5101
+  localSaveEnabled: 1
+  localSaveDirectory: DataCaptureVideo
+  localContainerFormat: H264AnnexB
+  sendVideo: 1
+  sendMetadata: 1
+  receiverDiscovered: 0
+  lastDiscoveryStatus: 
+  lastDiscoveryUnixMs: 0
+  lastDiscoveryTargets: 
+  localNetworkSummary: 
+  networkWarning: 
+  vpnOrTunnelInterfaceDetected: 0
+  discoveryTargetCount: 0
+  discoveryCandidateInterfaceCount: 0
+  ignoredVpnInterfaceCount: 0

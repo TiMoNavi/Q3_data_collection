@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684347ef0dd85374780a79069eaaae7f, type: 3}
+  m_Name: PCReceiverConnectionStatus
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.PCReceiverConnectionStatusSO
+  discoveryRequested: 0
+  discoveryRequestRevision: 0
+  lastDiscoveryRequestUnixMs: 0
+  lastDiscoveryRequestSource: 
+  phase: 0
+  handshakeSucceeded: 0
+  pcConnected: 0
+  portsPaired: 0
+  remoteHost: 
+  discoveryPort: 49000
+  metadataPort: 0
+  videoPort: 0
+  protocolVersion: 1
+  discoveryStartedUnixMs: 0
+  lastDiscoverySentUnixMs: 0
+  lastResponseUnixMs: 0
+  lastPairedUnixMs: 0
+  lastRoundTripMs: -1
+  discoveryAttemptCount: 0
+  malformedResponseCount: 0
+  incompatibleResponseCount: 0
+  socketErrorCount: 0
+  lastStatusMessage: Not started.
+  lastErrorMessage: 
+  lastBlocker: PC receiver has not been discovered.
+  localNetworkSummary: 
+  lastDiscoveryTargets: 
+  networkWarning: 
+  vpnOrTunnelInterfaceDetected: 0
+  discoveryTargetCount: 0
+  discoveryCandidateInterfaceCount: 0
+  ignoredVpnInterfaceCount: 0
+  logConnectionChangesToUnity: 1
+  lastDebugMessage: 
+  lastChangedUnixMs: 0
+  connectionChangeCount: 0
+  recentDebugEvents:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

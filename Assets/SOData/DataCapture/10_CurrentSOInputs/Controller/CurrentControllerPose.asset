@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a615d2ee3646144792263c116cacb7e, type: 3}
+  m_Name: CurrentControllerPose
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Synchronization.CurrentControllerPoseSO
+  timestampUnixMs: 1781310870049
+  isValid: 1
+  hasWorldCoordinateFrame: 1
+  hasCalibration: 1
+  worldCoordinateFrameName: WorldCoordinateFrame
+  calibratedCoordinateFrameName: SessionCoordinateCalibration
+  leftTriggerPressed: 0
+  leftGripPressed: 0
+  leftPrimaryButtonPressed: 0
+  leftSecondaryButtonPressed: 0
+  rightTriggerPressed: 0
+  rightGripPressed: 0
+  rightPrimaryButtonPressed: 0
+  rightSecondaryButtonPressed: 0
+  worldLeftPosition: {x: 0, y: 0, z: 0}
+  worldLeftRotation: {x: -0, y: -0, z: -0, w: 1}
+  worldRightPosition: {x: 0, y: 0, z: 0}
+  worldRightRotation: {x: -0, y: -0, z: -0, w: 1}
+  calibratedLeftPosition: {x: 0, y: 0, z: 0}
+  calibratedLeftRotation: {x: 0, y: 0, z: 0, w: 1}
+  calibratedRightPosition: {x: 0, y: 0, z: 0}
+  calibratedRightRotation: {x: 0, y: 0, z: 0, w: 1}

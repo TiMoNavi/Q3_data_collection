@@ -81,6 +81,20 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
+# Local capture/debug outputs
+/captures/
+
+# Unity recovery scenes are editor-generated local state
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Python local caches
+__pycache__/
+*.py[cod]
+
+# Native local build outputs
+/Native/**/[Bb]uild/
+
 # Crashlytics generated file
 crashlytics-build.properties
 

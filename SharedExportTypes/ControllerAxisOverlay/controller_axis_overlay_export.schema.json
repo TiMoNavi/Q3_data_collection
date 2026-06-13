@@ -1,0 +1,357 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/q3-data-collection/controller_axis_overlay_export.schema.json",
+  "title": "Controller Axis Overlay Export",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "coordinateSystem",
+    "cameraModel",
+    "axisLengthMeters",
+    "source",
+    "frames"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "controller-axis-overlay/v1"
+    },
+    "coordinateSystem": {
+      "const": "unity-world-meters"
+    },
+    "cameraModel": {
+      "const": "quest-pca-pinhole"
+    },
+    "axisLengthMeters": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/frame"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sessionDir",
+        "metadataPath",
+        "videoHeadersPath",
+        "toolName"
+      ],
+      "properties": {
+        "sessionDir": {
+          "type": "string"
+        },
+        "metadataPath": {
+          "type": "string"
+        },
+        "videoHeadersPath": {
+          "type": "string"
+        },
+        "generatedAtUnixMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "toolName": {
+          "type": "string"
+        }
+      }
+    },
+    "frame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceCameraFrameId",
+        "timestampUnixMs",
+        "imagePath",
+        "imageSize",
+        "camera",
+        "controllers"
+      ],
+      "properties": {
+        "sourceCameraFrameId": {
+          "type": "integer"
+        },
+        "encodedFrameId": {
+          "type": "integer"
+        },
+        "sequenceId": {
+          "type": "integer"
+        },
+        "timestampUnixMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "imagePath": {
+          "type": "string"
+        },
+        "overlayImagePath": {
+          "type": "string"
+        },
+        "imageSize": {
+          "$ref": "#/$defs/size2i"
+        },
+        "camera": {
+          "$ref": "#/$defs/camera"
+        },
+        "controllers": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "left",
+            "right"
+          ],
+          "properties": {
+            "left": {
+              "$ref": "#/$defs/controller"
+            },
+            "right": {
+              "$ref": "#/$defs/controller"
+            }
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frameId",
+        "timestampUnixMs",
+        "positionWorld",
+        "rotationWorld",
+        "resolution",
+        "sensorResolution",
+        "focalLength",
+        "principalPoint",
+        "cameraLocalToWorldMatrix",
+        "cameraWorldToLocalMatrix"
+      ],
+      "properties": {
+        "frameId": {
+          "type": "integer"
+        },
+        "timestampUnixMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positionWorld": {
+          "$ref": "#/$defs/vector3"
+        },
+        "rotationWorld": {
+          "$ref": "#/$defs/quaternion"
+        },
+        "resolution": {
+          "$ref": "#/$defs/size2i"
+        },
+        "sensorResolution": {
+          "$ref": "#/$defs/size2i"
+        },
+        "focalLength": {
+          "$ref": "#/$defs/vector2"
+        },
+        "principalPoint": {
+          "$ref": "#/$defs/vector2"
+        },
+        "cameraLocalToWorldMatrix": {
+          "$ref": "#/$defs/matrix4x4"
+        },
+        "cameraWorldToLocalMatrix": {
+          "$ref": "#/$defs/matrix4x4"
+        }
+      }
+    },
+    "controller": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hand",
+        "isValid"
+      ],
+      "properties": {
+        "hand": {
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "isValid": {
+          "type": "boolean"
+        },
+        "skipReason": {
+          "type": "string"
+        },
+        "timestampUnixMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positionWorld": {
+          "$ref": "#/$defs/vector3"
+        },
+        "rotationWorld": {
+          "$ref": "#/$defs/quaternion"
+        },
+        "pivotPixel": {
+          "$ref": "#/$defs/vector2"
+        },
+        "axes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "properties": {
+            "x": {
+              "$ref": "#/$defs/axisProjection"
+            },
+            "y": {
+              "$ref": "#/$defs/axisProjection"
+            },
+            "z": {
+              "$ref": "#/$defs/axisProjection"
+            }
+          }
+        }
+      }
+    },
+    "axisProjection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "isVisible",
+        "colorRgb"
+      ],
+      "properties": {
+        "isVisible": {
+          "type": "boolean"
+        },
+        "skipReason": {
+          "type": "string"
+        },
+        "endpointWorld": {
+          "$ref": "#/$defs/vector3"
+        },
+        "startPixel": {
+          "$ref": "#/$defs/vector2"
+        },
+        "endPixel": {
+          "$ref": "#/$defs/vector2"
+        },
+        "colorRgb": {
+          "$ref": "#/$defs/colorRgb"
+        }
+      }
+    },
+    "vector2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x",
+        "y"
+      ],
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        }
+      }
+    },
+    "vector3": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x",
+        "y",
+        "z"
+      ],
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "z": {
+          "type": "number"
+        }
+      }
+    },
+    "quaternion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x",
+        "y",
+        "z",
+        "w"
+      ],
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "z": {
+          "type": "number"
+        },
+        "w": {
+          "type": "number"
+        }
+      }
+    },
+    "size2i": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "width",
+        "height"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "matrix4x4": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "colorRgb": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      }
+    }
+  }
+}

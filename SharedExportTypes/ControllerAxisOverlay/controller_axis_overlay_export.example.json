@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "controller-axis-overlay/v1",
+  "coordinateSystem": "unity-world-meters",
+  "cameraModel": "quest-pca-pinhole",
+  "axisLengthMeters": 0.12,
+  "source": {
+    "sessionDir": "captures/q3_after_mruk_fix_20260609_134333/q3dc_session_20260609_134421",
+    "metadataPath": "metadata/merged_metadata.jsonl",
+    "videoHeadersPath": "video/video_headers.jsonl",
+    "generatedAtUnixMs": 1780983862000,
+    "toolName": "PCReceiver/offline_controller_axis_overlay.py"
+  },
+  "frames": [
+    {
+      "sourceCameraFrameId": 42,
+      "encodedFrameId": 0,
+      "sequenceId": 0,
+      "timestampUnixMs": 1780983862000,
+      "imagePath": "video/frames/frame_000000.jpg",
+      "overlayImagePath": "video/frames_overlay/frame_000000.jpg",
+      "imageSize": {
+        "width": 320,
+        "height": 320
+      },
+      "camera": {
+        "frameId": 42,
+        "timestampUnixMs": 1780983862000,
+        "positionWorld": {
+          "x": 0.05,
+          "y": 0.89,
+          "z": 0.04
+        },
+        "rotationWorld": {
+          "x": -0.006,
+          "y": -0.070,
+          "z": -0.006,
+          "w": -0.997
+        },
+        "resolution": {
+          "width": 1280,
+          "height": 1280
+        },
+        "sensorResolution": {
+          "width": 1280,
+          "height": 1280
+        },
+        "focalLength": {
+          "x": 868.1105,
+          "y": 868.1105
+        },
+        "principalPoint": {
+          "x": 634.8984,
+          "y": 637.3465
+        },
+        "cameraLocalToWorldMatrix": [
+          [1.0, 0.0, 0.0, 0.05],
+          [0.0, 1.0, 0.0, 0.89],
+          [0.0, 0.0, 1.0, 0.04],
+          [0.0, 0.0, 0.0, 1.0]
+        ],
+        "cameraWorldToLocalMatrix": [
+          [1.0, 0.0, 0.0, -0.05],
+          [0.0, 1.0, 0.0, -0.89],
+          [0.0, 0.0, 1.0, -0.04],
+          [0.0, 0.0, 0.0, 1.0]
+        ]
+      },
+      "controllers": {
+        "left": {
+          "hand": "left",
+          "isValid": true,
+          "timestampUnixMs": 1780983862002,
+          "positionWorld": {
+            "x": -0.18,
+            "y": 0.78,
+            "z": 0.45
+          },
+          "rotationWorld": {
+            "x": 0.02,
+            "y": 0.12,
+            "z": 0.01,
+            "w": 0.99
+          },
+          "pivotPixel": {
+            "x": 90.2,
+            "y": 205.7
+          },
+          "axes": {
+            "x": {
+              "isVisible": true,
+              "endpointWorld": {
+                "x": -0.06,
+                "y": 0.78,
+                "z": 0.45
+              },
+              "startPixel": {
+                "x": 90.2,
+                "y": 205.7
+              },
+              "endPixel": {
+                "x": 130.4,
+                "y": 207.1
+              },
+              "colorRgb": [255, 48, 48]
+            },
+            "y": {
+              "isVisible": true,
+              "endpointWorld": {
+                "x": -0.18,
+                "y": 0.9,
+                "z": 0.45
+              },
+              "startPixel": {
+                "x": 90.2,
+                "y": 205.7
+              },
+              "endPixel": {
+                "x": 88.9,
+                "y": 150.6
+              },
+              "colorRgb": [48, 220, 80]
+            },
+            "z": {
+              "isVisible": true,
+              "endpointWorld": {
+                "x": -0.18,
+                "y": 0.78,
+                "z": 0.57
+              },
+              "startPixel": {
+                "x": 90.2,
+                "y": 205.7
+              },
+              "endPixel": {
+                "x": 76.5,
+                "y": 197.2
+              },
+              "colorRgb": [64, 128, 255]
+            }
+          }
+        },
+        "right": {
+          "hand": "right",
+          "isValid": false,
+          "skipReason": "controller_world_pose_invalid"
+        }
+      }
+    }
+  ]
+}

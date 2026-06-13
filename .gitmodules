@@ -1,0 +1,3 @@
+[submodule "External/InstantReplay"]
+	path = External/InstantReplay
+	url = https://github.com/CyberAgentGameEntertainment/InstantReplay.git

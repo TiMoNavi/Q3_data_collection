@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce1dec2110f1a34fb0755e4e73c637c, type: 3}
+  m_Name: SessionFinalizeState
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.SessionFinalizeStateSO
+  decision: 0
+  recordingEndedNormally: 0
+  metadataTimelineComplete: 0
+  frameIndexComplete: 0
+  videoArtifactComplete: 0
+  encodingHealthy: 0
+  activeBlocker: Session has not finalized.
+  lastUpdatedUnixMs: 0

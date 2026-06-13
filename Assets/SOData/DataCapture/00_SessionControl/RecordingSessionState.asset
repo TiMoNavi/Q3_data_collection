@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14faee01228a4b03aee4b9d473b2f44b, type: 3}
+  m_Name: RecordingSessionState
+  m_EditorClassIdentifier: Assembly-CSharp:SObasic.CurrentQueueBridge:RecordingSessionStateSO
+  state: 0
+  exceptionLog: {fileID: 11400000, guid: 7e2e5de4f19b65e408cca829a2f61687, type: 2}
+  lastExceptionReason: 
+  lastExceptionUnixMs: 0
+  logStateChangesToUnity: 1
+  lastDebugMessage: 
+  lastStateChangeUnixMs: 0
+  stateChangeCount: 0
+  recentDebugEvents:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

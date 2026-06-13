@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634a870d7a4c7054e9636fdd632d1737, type: 3}
+  m_Name: SoDrivenSixStagePipelineStatus
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Diagnostics.SoDrivenSixStagePipelineStatusSO
+  isRunning: 0
+  isComplete: 0
+  hasFailure: 0
+  activeStage: 
+  lastBlocker: 
+  statusMessage: 
+  startedAtUnixMs: 0
+  updatedAtUnixMs: 0
+  completedAtUnixMs: 0
+  runRevision: 0
+  handshakeAndRecording:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  currentCapture:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  queueBuffering:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  synchronization:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  encoding:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  networkAndPcReceive:
+    stageName: 
+    state: 0
+    passed: 0
+    checkedAtUnixMs: 0
+    statusMessage: 
+    blocker: 
+    frameId: 0
+    timestampUnixMs: 0
+    count: 0
+    codec: 
+    byteLength: 0
+  logChangesToUnity: 1
+  recentEvents:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

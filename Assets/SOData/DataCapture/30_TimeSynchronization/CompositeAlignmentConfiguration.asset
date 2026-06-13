@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f44541ef754219b7f71ed03ea5e198, type: 3}
+  m_Name: CompositeAlignmentConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Synchronization.CompositeAlignmentConfigurationSO
+  alignmentStreams:
+  - streamName: CameraImage
+    queueAsset: {fileID: 11400000, guid: ca4f8f19f191822428ea4141387136fe, type: 2}
+    required: 1
+  - streamName: CameraPose
+    queueAsset: {fileID: 11400000, guid: 50e5236613b848928e092dce949b8f88, type: 2}
+    required: 1
+  - streamName: CameraMetadata
+    queueAsset: {fileID: 11400000, guid: d264bc46e89448e588247caa4070edca, type: 2}
+    required: 1
+  - streamName: CameraStreamState
+    queueAsset: {fileID: 11400000, guid: 6ed4ceae8cdd44d59353893af3a1391b, type: 2}
+    required: 1
+  - streamName: ControllerPose
+    queueAsset: {fileID: 11400000, guid: c264525492cc2924d95d7cfad3a652da, type: 2}
+    required: 1
+  - streamName: VirtualLayer
+    queueAsset: {fileID: 11400000, guid: b25cd8efd375bdb45b57b314e5a5c184, type: 2}
+    required: 1

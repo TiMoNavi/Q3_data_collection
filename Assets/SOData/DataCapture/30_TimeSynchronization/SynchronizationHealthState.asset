@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb1bbb427f7ced459ac727e2e3c7358, type: 3}
+  m_Name: SynchronizationHealthState
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Synchronization.SynchronizationHealthStateSO
+  latestIsSendable: 0
+  requiredQueuesHealthy: 0
+  latestDropReason: 
+  latestFrameId: -1
+  latestTimestampUnixMs: 0
+  requiredQueueCount: 0
+  healthyRequiredQueueCount: 0
+  producedSnapshotCount: 0
+  droppedSnapshotCount: 0

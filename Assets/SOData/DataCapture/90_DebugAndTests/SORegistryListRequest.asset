@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719d4d5f426f2514b8290cdbcb33c6e7, type: 3}
+  m_Name: SORegistryListRequest
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Testing.SORegistryListRequestSO
+  requested: 0
+  requestRevision: 0
+  requestedAtUnixMs: 0
+  requestSource: 
+  includeTypeNames: 1
+  includeAssetPaths: 1
+  lastSucceeded: 1
+  lastListCount: 47
+  lastListedAtUnixMs: 1781044844281
+  lastStatusMessage: SO registry contains 47 registered asset(s).
+  lastListText: '1. CurrentTimestamp type=DataCapture.Synchronization.TimeStampVariable
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/CurrentTimestamp.asset
+
+    2. RecordingSessionState
+    type=SObasic.CurrentQueueBridge.RecordingSessionStateSO path=Assets/SOData/DataCapture/00_SessionControl/RecordingSessionState.asset
+
+    3.
+    RecordingToggleRequest type=SObasic.CurrentQueueBridge.RecordingToggleRequestSO
+    path=Assets/SOData/DataCapture/00_SessionControl/RecordingToggleRequest.asset
+
+    4.
+    SyncConfiguration type=DataCapture.Synchronization.SyncConfiguration path=Assets/SOData/DataCapture/30_TimeSynchronization/SyncConfiguration.asset
+
+    5.
+    CoordinateCalibrationResetRequest type=DataCapture.Synchronization.CoordinateCalibrationResetRequestSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/CoordinateCalibrationResetRequest.asset
+
+    6.
+    SessionCoordinateCalibration type=DataCapture.Synchronization.SessionCoordinateCalibrationSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/SessionCoordinateCalibration.asset
+
+    7.
+    WorldCoordinateFrame type=DataCapture.Synchronization.WorldCoordinateFrameSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/WorldCoordinateFrame.asset
+
+    8.
+    CameraFrameTimingQueue type=DataCapture.Synchronization.CameraFrameTimingQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraFrameTimingQueue.asset
+
+    9.
+    CameraImageQueue type=DataCapture.Synchronization.CameraImageQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraImageQueue.asset
+
+    10.
+    CameraMetadataQueue type=DataCapture.Synchronization.CameraMetadataQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraMetadataQueue.asset
+
+    11.
+    CameraPoseQueue type=DataCapture.Synchronization.CameraPoseQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraPoseQueue.asset
+
+    12.
+    CameraStreamStateQueue type=DataCapture.Synchronization.CameraStreamStateQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraStreamStateQueue.asset
+
+    13.
+    CurrentCameraFrameTiming type=DataCapture.Synchronization.CurrentCameraFrameTimingSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraFrameTiming.asset
+
+    14.
+    CurrentCameraImage type=DataCapture.Synchronization.CurrentCameraImageSO path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraImage.asset
+
+    15.
+    CurrentCameraMetadata type=DataCapture.Synchronization.CurrentCameraMetadataSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraMetadata.asset
+
+    16.
+    CurrentCameraPose type=DataCapture.Synchronization.CurrentCameraPoseSO path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraPose.asset
+
+    17.
+    CurrentCameraStreamState type=DataCapture.Synchronization.CurrentCameraStreamStateSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraStreamState.asset
+
+    18.
+    CurrentVirtualLayerFrame type=DataCapture.Synchronization.CurrentVirtualLayerFrameSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/VirtualLayer/CurrentVirtualLayerFrame.asset
+
+    19.
+    VirtualLayerQueue type=DataCapture.Synchronization.VirtualLayerQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/VirtualLayer/VirtualLayerQueue.asset
+
+    20.
+    ControllerPoseQueue type=DataCapture.Synchronization.ControllerPoseQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/Controller/ControllerPoseQueue.asset
+
+    21.
+    CurrentControllerPose type=DataCapture.Synchronization.CurrentControllerPoseSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/Controller/CurrentControllerPose.asset
+
+    22.
+    CurrentHeadsetPose type=DataCapture.Synchronization.CurrentHeadsetPoseSO path=Assets/SOData/DataCapture/10_CurrentSOInputs/Headset/CurrentHeadsetPose.asset
+
+    23.
+    HeadsetPoseQueue type=DataCapture.Synchronization.HeadsetPoseQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/Headset/HeadsetPoseQueue.asset
+
+    24.
+    CurrentNetworkDevice type=DataCapture.Synchronization.CurrentNetworkDeviceSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/NetworkDevice/CurrentNetworkDevice.asset
+
+    25.
+    NetworkDeviceQueue type=DataCapture.Synchronization.NetworkDeviceQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/NetworkDevice/NetworkDeviceQueue.asset
+
+    26.
+    CompositeAlignmentConfiguration type=DataCapture.Synchronization.CompositeAlignmentConfigurationSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/CompositeAlignmentConfiguration.asset
+
+    27.
+    MergedFrameSnapshotQueue type=DataCapture.Synchronization.MergedFrameSnapshotQueueSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/MergedFrameSnapshotQueue.asset
+
+    28.
+    CurrentEncodedFrame type=DataCapture.Synchronization.CurrentEncodedFrameSO path=Assets/SOData/DataCapture/40_SingleEncodeProduction/CurrentEncodedFrame.asset
+
+    29.
+    CurrentNetworkPacket type=DataCapture.Networking.CurrentNetworkPacketSO path=Assets/SOData/DataCapture/60_Distribution/CurrentNetworkPacket.asset
+
+    30.
+    DebugImageStreamSettings type=DataCapture.Networking.DebugImageStreamSettingsSO
+    path=Assets/SOData/DataCapture/90_DebugAndTests/DebugImageStreamSettings.asset
+
+    31.
+    EncodedFrameQueue type=DataCapture.Synchronization.EncodedFrameQueueSO path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncodedFrameQueue.asset
+
+    32.
+    EncoderConfiguration type=DataCapture.Networking.EncoderConfigurationSO path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncoderConfiguration.asset
+
+    33.
+    EncodingPipelineConfiguration type=DataCapture.Networking.EncodingPipelineConfigurationSO
+    path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncodingPipelineConfiguration.asset
+
+    34.
+    NetworkPacketQueue type=DataCapture.Networking.NetworkPacketQueueSO path=Assets/SOData/DataCapture/60_Distribution/NetworkPacketQueue.asset
+
+    35.
+    NetworkSenderConfiguration type=DataCapture.Networking.NetworkSenderConfigurationSO
+    path=Assets/SOData/DataCapture/60_Distribution/NetworkSenderConfiguration.asset
+
+    36.
+    PCDiscoveryRequest type=DataCapture.Networking.PCDiscoveryRequestSO path=Assets/SOData/DataCapture/00_SessionControl/PCDiscoveryRequest.asset
+
+    37.
+    PCReceiverConnectionStatus type=DataCapture.Networking.PCReceiverConnectionStatusSO
+    path=Assets/SOData/DataCapture/00_SessionControl/PCReceiverConnectionStatus.asset
+
+    38.
+    QueueDebug_Camera type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Camera.asset
+
+    39.
+    QueueDebug_Controller type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Controller.asset
+
+    40.
+    QueueDebug_Headset type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Headset.asset
+
+    41.
+    QueueDebug_VirtualLayer type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_VirtualLayer.asset
+
+    42.
+    SOFieldWriteRequest type=DataCapture.Testing.SOFieldWriteRequestSO path=Assets/SOData/DataCapture/90_DebugAndTests/SOFieldWriteRequest.asset
+
+    43.
+    TimestampMergerDebugState type=DataCapture.Diagnostics.TimestampMergerDebugStateSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/TimestampMergerDebugState.asset
+
+    44.
+    SORegistryListRequest type=DataCapture.Testing.SORegistryListRequestSO path=Assets/SOData/DataCapture/90_DebugAndTests/SORegistryListRequest.asset
+
+    45.
+    PassthroughState type=DataCapture.Passthrough.PassthroughStateData path=Assets/SOData/DataCapture/90_DebugAndTests/PassthroughState.asset
+
+    46.
+    RecordingExceptionLog type=SObasic.StringVariable path=Assets/SOData/DataCapture/00_SessionControl/RecordingExceptionLog.asset
+
+    47.
+    CaptureTransmissionGate type=DataCapture.Networking.CaptureTransmissionGateSO
+    path=Assets/SOData/DataCapture/60_Distribution/CaptureTransmissionGate.asset
+
+'
+  recentEntries:
+  - 1. CurrentTimestamp type=DataCapture.Synchronization.TimeStampVariable path=Assets/SOData/DataCapture/30_TimeSynchronization/CurrentTimestamp.asset
+  - 2. RecordingSessionState type=SObasic.CurrentQueueBridge.RecordingSessionStateSO
+    path=Assets/SOData/DataCapture/00_SessionControl/RecordingSessionState.asset
+  - 3. RecordingToggleRequest type=SObasic.CurrentQueueBridge.RecordingToggleRequestSO
+    path=Assets/SOData/DataCapture/00_SessionControl/RecordingToggleRequest.asset
+  - 4. SyncConfiguration type=DataCapture.Synchronization.SyncConfiguration path=Assets/SOData/DataCapture/30_TimeSynchronization/SyncConfiguration.asset
+  - 5. CoordinateCalibrationResetRequest type=DataCapture.Synchronization.CoordinateCalibrationResetRequestSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/CoordinateCalibrationResetRequest.asset
+  - 6. SessionCoordinateCalibration type=DataCapture.Synchronization.SessionCoordinateCalibrationSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/SessionCoordinateCalibration.asset
+  - 7. WorldCoordinateFrame type=DataCapture.Synchronization.WorldCoordinateFrameSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/CoordinateCalibration/WorldCoordinateFrame.asset
+  - 8. CameraFrameTimingQueue type=DataCapture.Synchronization.CameraFrameTimingQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraFrameTimingQueue.asset
+  - 9. CameraImageQueue type=DataCapture.Synchronization.CameraImageQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraImageQueue.asset
+  - 10. CameraMetadataQueue type=DataCapture.Synchronization.CameraMetadataQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraMetadataQueue.asset
+  - 11. CameraPoseQueue type=DataCapture.Synchronization.CameraPoseQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraPoseQueue.asset
+  - 12. CameraStreamStateQueue type=DataCapture.Synchronization.CameraStreamStateQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/PassthroughCamera/CameraStreamStateQueue.asset
+  - 13. CurrentCameraFrameTiming type=DataCapture.Synchronization.CurrentCameraFrameTimingSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraFrameTiming.asset
+  - 14. CurrentCameraImage type=DataCapture.Synchronization.CurrentCameraImageSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraImage.asset
+  - 15. CurrentCameraMetadata type=DataCapture.Synchronization.CurrentCameraMetadataSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraMetadata.asset
+  - 16. CurrentCameraPose type=DataCapture.Synchronization.CurrentCameraPoseSO path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraPose.asset
+  - 17. CurrentCameraStreamState type=DataCapture.Synchronization.CurrentCameraStreamStateSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/PassthroughCamera/CurrentCameraStreamState.asset
+  - 18. CurrentVirtualLayerFrame type=DataCapture.Synchronization.CurrentVirtualLayerFrameSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/VirtualLayer/CurrentVirtualLayerFrame.asset
+  - 19. VirtualLayerQueue type=DataCapture.Synchronization.VirtualLayerQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/VirtualLayer/VirtualLayerQueue.asset
+  - 20. ControllerPoseQueue type=DataCapture.Synchronization.ControllerPoseQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/Controller/ControllerPoseQueue.asset
+  - 21. CurrentControllerPose type=DataCapture.Synchronization.CurrentControllerPoseSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/Controller/CurrentControllerPose.asset
+  - 22. CurrentHeadsetPose type=DataCapture.Synchronization.CurrentHeadsetPoseSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/Headset/CurrentHeadsetPose.asset
+  - 23. HeadsetPoseQueue type=DataCapture.Synchronization.HeadsetPoseQueueSO path=Assets/SOData/DataCapture/20_QueueBuffers/Headset/HeadsetPoseQueue.asset
+  - 24. CurrentNetworkDevice type=DataCapture.Synchronization.CurrentNetworkDeviceSO
+    path=Assets/SOData/DataCapture/10_CurrentSOInputs/NetworkDevice/CurrentNetworkDevice.asset
+  - 25. NetworkDeviceQueue type=DataCapture.Synchronization.NetworkDeviceQueueSO
+    path=Assets/SOData/DataCapture/20_QueueBuffers/NetworkDevice/NetworkDeviceQueue.asset
+  - 26. CompositeAlignmentConfiguration type=DataCapture.Synchronization.CompositeAlignmentConfigurationSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/CompositeAlignmentConfiguration.asset
+  - 27. MergedFrameSnapshotQueue type=DataCapture.Synchronization.MergedFrameSnapshotQueueSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/MergedFrameSnapshotQueue.asset
+  - 28. CurrentEncodedFrame type=DataCapture.Synchronization.CurrentEncodedFrameSO
+    path=Assets/SOData/DataCapture/40_SingleEncodeProduction/CurrentEncodedFrame.asset
+  - 29. CurrentNetworkPacket type=DataCapture.Networking.CurrentNetworkPacketSO path=Assets/SOData/DataCapture/60_Distribution/CurrentNetworkPacket.asset
+  - 30. DebugImageStreamSettings type=DataCapture.Networking.DebugImageStreamSettingsSO
+    path=Assets/SOData/DataCapture/90_DebugAndTests/DebugImageStreamSettings.asset
+  - 31. EncodedFrameQueue type=DataCapture.Synchronization.EncodedFrameQueueSO path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncodedFrameQueue.asset
+  - 32. EncoderConfiguration type=DataCapture.Networking.EncoderConfigurationSO path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncoderConfiguration.asset
+  - 33. EncodingPipelineConfiguration type=DataCapture.Networking.EncodingPipelineConfigurationSO
+    path=Assets/SOData/DataCapture/40_SingleEncodeProduction/EncodingPipelineConfiguration.asset
+  - 34. NetworkPacketQueue type=DataCapture.Networking.NetworkPacketQueueSO path=Assets/SOData/DataCapture/60_Distribution/NetworkPacketQueue.asset
+  - 35. NetworkSenderConfiguration type=DataCapture.Networking.NetworkSenderConfigurationSO
+    path=Assets/SOData/DataCapture/60_Distribution/NetworkSenderConfiguration.asset
+  - 36. PCDiscoveryRequest type=DataCapture.Networking.PCDiscoveryRequestSO path=Assets/SOData/DataCapture/00_SessionControl/PCDiscoveryRequest.asset
+  - 37. PCReceiverConnectionStatus type=DataCapture.Networking.PCReceiverConnectionStatusSO
+    path=Assets/SOData/DataCapture/00_SessionControl/PCReceiverConnectionStatus.asset
+  - 38. QueueDebug_Camera type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Camera.asset
+  - 39. QueueDebug_Controller type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Controller.asset
+  - 40. QueueDebug_Headset type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_Headset.asset
+  - 41. QueueDebug_VirtualLayer type=DataCapture.Diagnostics.QueueDebugStateSO path=Assets/SOData/DataCapture/90_DebugAndTests/QueueDebug_VirtualLayer.asset
+  - 42. SOFieldWriteRequest type=DataCapture.Testing.SOFieldWriteRequestSO path=Assets/SOData/DataCapture/90_DebugAndTests/SOFieldWriteRequest.asset
+  - 43. TimestampMergerDebugState type=DataCapture.Diagnostics.TimestampMergerDebugStateSO
+    path=Assets/SOData/DataCapture/30_TimeSynchronization/TimestampMergerDebugState.asset
+  - 44. SORegistryListRequest type=DataCapture.Testing.SORegistryListRequestSO path=Assets/SOData/DataCapture/90_DebugAndTests/SORegistryListRequest.asset
+  - 45. PassthroughState type=DataCapture.Passthrough.PassthroughStateData path=Assets/SOData/DataCapture/90_DebugAndTests/PassthroughState.asset
+  - 46. RecordingExceptionLog type=SObasic.StringVariable path=Assets/SOData/DataCapture/00_SessionControl/RecordingExceptionLog.asset
+  - 47. CaptureTransmissionGate type=DataCapture.Networking.CaptureTransmissionGateSO
+    path=Assets/SOData/DataCapture/60_Distribution/CaptureTransmissionGate.asset
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

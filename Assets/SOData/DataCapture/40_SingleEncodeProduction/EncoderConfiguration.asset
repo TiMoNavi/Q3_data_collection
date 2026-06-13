@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c16c4a2350c08408fb4e416215244e, type: 3}
+  m_Name: EncoderConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::DataCapture.Networking.EncoderConfigurationSO
+  codec: DEBUG_JPEG
+  targetWidth: 320
+  targetHeight: 320
+  targetFrameRate: 2
+  targetBitrateKbps: 8000
+  qualityPercent: 80
+  bitrateSource: 0
+  minAutoBitrateKbps: 512
+  maxAutoBitrateKbps: 30000
+  keyFrameIntervalSeconds: 1
+  forceKeyFrameOnStart: 1
+  resolutionSource: 0
+  frameRateSource: 0
+  allowDownscale: 1
+  maxOutputWidth: 1280
+  maxOutputHeight: 1280
+  debugSavePacketsToDisk: 0
